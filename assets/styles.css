@@ -11,7 +11,7 @@ body{
 .container {
     font-family: 'Roboto';
     max-width: 65vw;
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
 }
 
