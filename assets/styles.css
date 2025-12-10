@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Oswald:wght@200..700&display=swap');
 body{
     font-family: "Caprasimo", serif;
-    background-color: antiquewhite;
-    color: #161717;
+    background-color: #E6D5F2;
+    color: #000000;
     height:auto;
     min-height:100vh;
 }
