@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Oswald:wght@200..700&display=swap');
 body{
+    padding: 2rem;
     font-family: "Caprasimo", serif;
     background-color: #E6D5F2;
     color: #000000;
@@ -12,9 +13,13 @@ body{
 /* Container styling */
 .container {
     font-family: "Caprasimo", serif;
-    max-width: 65vw;
     margin-left: 10px;
     margin-right: auto;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .title {
@@ -33,9 +38,15 @@ img {
     background-color: white;
 }
 .imageContainer {
-    display: flex;  
-    flex-direction: column;
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+}
+page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
