@@ -1,51 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS</title>
-
-    <!-- Link to your CSS file -->
-    <link rel="stylesheet" href="assets/styles.css">
-    <link rel="stylesheet" href="assets/flexboxes.css">
-    <link rel="stylesheet" href="assets/nav.css">
-    <link rel="stylesheet" href="assets/typography.css">
-</head>
-<body>
-    <!-- Dit is een klasse container wordt zo aangegeven in CSS .container -->
-    <div>
-        <!-- Dit is een klasse vertical-buttons wordt zo aangegeven in CSS .vertical-buttons -->
-        <ul class="vertical-buttons">
-            <li><a href="./index.html">Hoofd pagina</a></li>
-            <li><a href="./week1.html">Week 1</a></li>
-            <li><a href="./week2.html">Week 2</a></li>
-            <li><a href="./week3.html">Week 3</a></li>
-            <li><a href="./week4.html">Week 4</a></li>
-            <li><a href="./week5.html">Week 5</a></li>
-            <li><a href="./week6.html">Week 6</a></li>
-            <li><a href="./week7.html" class="active">Week 7</a></li>
-            <li><a href="./week8.html">Week 8</a></li>
-            <li><a href="./week9.html">Week 9</a></li>
-            <li><a href="./week10.html">Week 10</a></li>
-            <li><a href="./week11.html">Week 11</a></li>
-            <li><a href="./week12.html">Week 12</a></li>
-        </ul>
-    </div>
-
-    <div class="imageContainer">
-    </div>
-
-    <main>
-        <h1>Week 7</h1>
-        <!-- Flex container with content -->
-        <div>
-            <!-- Dit is een klasse column wordt zo aangegeven in CSS .column -->
-            <div class="column">
-                <p>
-                    Week 7 was de herfstvakantie, dus hebben we geen les gehad. Ik heb deze week gebruikt om mijn proces document bij te werken en wat extra te oefenen met HTML en CSS om mijn vaardigheden te verbeteren voor de komende weken.
-                </p>
-            </div>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="min-h-screen bg-white text-[#002b66] flex flex-col gap-4 p-8 font-serif"
+  >
+    <div
+      class="font-[Caprasimo,serif] ml-2 mr-auto gap-8 flex flex-col items-center w-full"
+    >
+      <ul
+        class="grid grid-cols-7 gap-8 p-0 mb-6 list-none font-[Montserrat,sans-serif] uppercase font-bold"
+      >
+        <li>
+          <a
+            href="./index.html"
+            class="block py-3 px-6 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc]"
+            >Hoofd pagina</a
+          >
+        </li>
+        <li>
+          <a
+            href="./week1.html"
+            class="block py-3 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc]"
+            >Week 1</a
+          >
+        </li>
+        <li>
+          <a
+            href="./week2.html"
+            class="block py-3 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc]"
+            >Week 2</a
+          >
+        </li>
+        <li>
+          <a
+            href="./week3.html"
+            class="block py-3 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc]"
+            >Week 3</a
+          >
+        </li>
+        <li>
+          <a
+            href="./week4.html"
+            class="block py-3 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc]"
+            >Week 4</a
+          >
+        </li>
+        <li>
+          <a
+            href="./week5.html"
+            class="block py-3 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc]"
+            >Week 5</a
+          >
+        </li>
+        <li>
+          <a
+            href="./week6.html"
+            class="block py-3 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc]"
+            >Week 6</a
+          >
+        </li>
+        <li>
+          <a
+            href="./week7.html"
+            class="block py-3 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc] active"
+            >Week 7</a
+          >
+        </li>
+        <li>
+          <a
+            href="./week8.html"
+            class="block py-3 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc]"
+            >Week 8</a
+          >
+        </li>
+        <li>
+          <a
+            href="./week9.html"
+            class="block py-3 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc]"
+            >Week 9</a
+          >
+        </li>
+        <li>
+          <a
+            href="./week10.html"
+            class="block py-3 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc]"
+            >Week 10</a
+          >
+        </li>
+        <li>
+          <a
+            href="./week11.html"
+            class="block py-3 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc]"
+            >Week 11</a
+          >
+        </li>
+        <li>
+          <a
+            href="./week12.html"
+            class="block py-3 bg-[#00adf8] text-white rounded-xl text-center text-base shadow-md border border-gray-200 transition-all duration-200 hover:scale-105 hover:shadow-xl hover:bg-[#155dfc]"
+            >Week 12</a
+          >
+        </li>
+      </ul>
+      <main class="flex flex-col justify-center items-center">
+        <h1 class="text-3xl font-extrabold mt-8">Week 7</h1>
+        <div class="flex gap-5 mt-4">
+          <div class="flex-1">
+            <p class="mt-2">
+              Week 7 was de herfstvakantie, dus hebben we geen les gehad. Ik heb
+              deze week gebruikt om mijn proces document bij te werken en wat
+              extra te oefenen met HTML en CSS om mijn vaardigheden te
+              verbeteren voor de komende weken.
+            </p>
+          </div>
         </div>
-    </main>
-</body>
+      </main>
+    </div>
+  </body>
 </html>
