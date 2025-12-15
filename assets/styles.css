@@ -6,7 +6,7 @@ body{
     padding: 2rem;
     font-family: "Hobo", serif;
     background-color: white;
-    color: black;
+    color: #002b66;
     height:auto;
     min-height:100vh;
     display: flex;
@@ -46,7 +46,7 @@ img {
     grid-template-columns: repeat(4, 1fr);
     gap: 0.5rem;
 }
-page {
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -18,7 +18,8 @@
 .vertical-buttons li a {
     display: block;
     padding: 14px 0;
-    background: #155dfc;
+    background: #00adf8;
+    /* background: #155dfc; */
     color: white;
     border-radius: 10px;
     text-align: center;
@@ -59,7 +60,7 @@
     z-index: 1;
     border: none;
     background: #fff;
-    color: #eab4f8;
+    color: #002b66;
     box-shadow: 0 4px 16px rgba(37,99,235,0.13);
     transform: scale(1.03);
     pointer-events: none;
@@ -72,7 +73,7 @@
     position: absolute;
     inset: -6px -10px;
     border-radius: 999px;
-    border: 3px solid #eab4f8;
+    border: 3px solid #002b66;
     box-shadow: 0 0 0 4px rgba(37,99,235,0.10);
     z-index: -1;
     animation: indicator-pop 0.4s cubic-bezier(.4,2,.6,1);
