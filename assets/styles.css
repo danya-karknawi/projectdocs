@@ -4,11 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Oswald:wght@200..700&display=swap');
 body{
     padding: 2rem;
-    font-family: "Caprasimo", serif;
-    background-color: #E6D5F2;
-    color: #000000;
+    font-family: "Hobo", serif;
+    background-color: white;
+    color: black;
     height:auto;
     min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 /* Container styling */
 .container {
@@ -34,9 +37,10 @@ img {
     width: 25rem;
     height: auto;
     border: 1px solid black;
+    border-radius: 10px;
     padding: 1rem;
     background-color: white;
-}
+}   
 .imageContainer {
     display: grid;  
     grid-template-columns: repeat(4, 1fr);
